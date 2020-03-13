@@ -7,5 +7,4 @@
 3) В поле Username вводим: administrator'--
 
 ![](https://github.com/NaylyaZh99/hacking/blob/master/lab:%20SQLi/lab:%20SQLi/image2.png)
-
 Готово!
