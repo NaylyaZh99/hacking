@@ -2,8 +2,9 @@
 1) Переходим на сайт задания и выбираем любой продукт.
 2) Нажимаем "Check stock" и перехватываем запрос через Burp Suite.
 3) Между объявлением xml и stockCheck вставляем:
+```php
   <!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
-
+ ```
 4) Значение в productId меняем на &xxe;
 5) Отправляем запрос
 
