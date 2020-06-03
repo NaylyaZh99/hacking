@@ -1,4 +1,4 @@
-## Lab: Lab: SQL injection UNION attack, determining the number of columns returned by the query
+## Lab: SQL injection UNION attack, retrieving data from other tables
 1) Переходим на сайт задания и заходим в раздел Pets
 2) Убедимся, что запрос возвращает два столбца, отправив строку category=Pets'+UNION+SELECT+NULL,NULL--
 3) Убедимся, что оба столбца содержат текст, отправив category=Pets'+UNION+SELECT+'abc','def'--
