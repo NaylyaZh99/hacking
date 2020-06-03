@@ -10,7 +10,9 @@
   </svg>
 ```
 ![](https://github.com/NaylyaZh99/hacking/blob/master/lab%20XXE/task4/image.png)
+
 4) Возвращаемся на сайт и просматриваем загруженный нами аватар:
+
 ![](https://github.com/NaylyaZh99/hacking/blob/master/lab%20XXE/task4/image1.png)
 
 Готово!
